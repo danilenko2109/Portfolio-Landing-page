@@ -1,0 +1,242 @@
+.meet {
+  background: rgba(32, 32, 32, 1);
+  
+  &__title {
+    padding: 72px 16px 40px 16px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: rgba(250, 235, 73, 1);
+  }
+
+  &__describe {
+    padding-left: 16px;
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0;
+    width: 282px;
+    height: 60px;
+    color: white;
+    text-align: left;
+  }
+
+  &__stats {
+    display: flex;
+    justify-content: start;
+    padding: 16px;
+    gap: 30px;
+    color: white;
+  }
+
+  &__name {
+    width: 74px;
+    height: 44px;
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0;
+  }
+  position: relative;
+
+    &::after{
+       content: '';
+  position: absolute;
+  width: 180px;
+  height: 230px;
+  background-image: url('../images/eclipse__meet.png');
+  background-size: cover;
+ 
+  right: -84px;
+  bottom: 70px;
+
+
+
+border-width: 1px;
+ transform: rotate(0deg);
+    }
+     &::before{
+       content: '';
+  position: absolute;
+  width: 180px;
+  height: 230px;
+  background-image: url('../images/eclipse__meet.png');
+  background-size: cover;
+ 
+  right: -84px;
+  bottom: 30px;
+
+
+
+border-width: 1px;
+  transform: scaleX(-1) rotate(179deg);
+    }
+}
+
+@media (min-width: 769px) {
+  .meet {
+    padding: 40px;
+    height: 470px;
+    position: relative;
+
+    &::after{
+       content: '';
+  position: absolute;
+  width: 333px;
+  height: 410px;
+  background-image: url('../images/eclipse__meet.png');
+  background-size: cover;
+ 
+  right: -159px;
+  bottom: 30px;
+
+
+
+border-width: 1px;
+ transform: rotate(0deg);
+    }
+     &::before{
+       content: '';
+  position: absolute;
+  width: 333px;
+  height: 410px;
+  background-image: url('../images/eclipse__meet.png');
+  background-size: cover;
+ 
+  right: -159px;
+  bottom: 30px;
+
+
+
+border-width: 1px;
+  transform: scaleX(-1) rotate(179deg);
+    }
+  }
+
+  .meet__title {
+    padding: 70px 33px 30px 0;
+    font-size: 48px;
+  }
+
+  .meet__describe {
+    font-size: 16px;
+    width: 524px;
+    height: 44px;
+  }
+
+  .meet__stats {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    width: 540px;
+  }
+
+  .meet__quantity {
+    font-size: 48px;
+    margin-right: 100px;
+  }
+
+  .meet__name {
+    font-size: 16px;
+    width: 116px;
+    height: 22px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .meet {
+    padding: 20px 191px 100px 20px;
+    position: relative;
+
+    &::after{
+       content: '';
+  position: absolute;
+  width: 333px;
+  height: 410px;
+  background-image: url('../images/eclipse__meet.png');
+  background-size: cover;
+ 
+  right: -3px;
+  bottom: 30px;
+
+
+
+border-width: 1px;
+ transform: rotate(0deg);
+    }
+     &::before{
+       content: '';
+  position: absolute;
+  width: 333px;
+  height: 410px;
+  background-image: url('../images/eclipse__meet.png');
+  background-size: cover;
+ 
+  right: -3px;
+  bottom: 30px;
+
+
+
+border-width: 1px;
+  transform: scaleX(-1) rotate(179deg);
+    }
+  }
+
+  .meet__title {
+    padding: 80px 24px 40px;
+    font-size: 48px;
+  }
+
+  .meet__describe {
+    font-size: 16px;
+    width: 524px;
+    height: 44px;
+  }
+
+  .meet__stats {
+    justify-content: space-between;
+    width: 540px;
+  }
+
+  .meet__name {
+    font-size: 16px;
+  }
+
+  .meet__quantity {
+    font-size: 48px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .exclusive-shape {
+//   position: relative;
+//   width: 167.49px; /* увеличено с 200px до вашего значения */
+//   height: 319.98px; /* увеличено с 100px до вашего значения */
+//   background-color: red;
+//   border: 1px solid rgba(115, 115, 115, 1);
+//   border-radius: 50% / 100%; /* сохраняем изгиб */
+//   transform: rotate(45deg); /* сохраняем ориентацию */
+//   top: -100px; /* позиция по вертикали */
+//   left: 155px; /* позиция по горизонтали */
+// }
